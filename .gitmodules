@@ -1,0 +1,3 @@
+[submodule "tts-skill"]
+	path = tts-skill
+	url = https://github.com/tabortao/tts-skill.git
