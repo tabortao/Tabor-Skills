@@ -1,0 +1,32 @@
+
+## 开通Zero Trust
+
+
+## Cloudflare Account ID 与 API Token 获取
+
+
+- 账户API令牌
+
+![](https://img.sdgarden.top/blog/2026/03/20260326173728055.webp)
+
+- 创建自定义令牌
+![](https://img.sdgarden.top/blog/2026/03/20260326173835017.webp)
+
+- 复制账户ID 与 API Token 
+![](https://img.sdgarden.top/blog/2026/03/20260326173846576.webp)
+
+## 安装Cloudflare Tunnel应用
+- 打开飞牛应用中心，安装Cloudflare Tunnel
+
+![](https://img.sdgarden.top/blog/2026/03/20260326173915367.webp)
+- 填写上一步的账户ID 与 API Token
+![](https://img.sdgarden.top/blog/2026/03/20260326174157595.webp)
+
+- 自建Tunnel
+![](https://img.sdgarden.top/blog/2026/03/20260326174339204.webp)
+
+## 跳过TTS安全检查
+![](https://img.sdgarden.top/blog/2026/03/20260326174551155.webp)
+- 进入Zero Trust-网络-连接器，可以看到自己创建的Cloudflare Tunnel
+![](https://img.sdgarden.top/blog/2026/03/20260326174938817.webp)
+- 输入二级域名，就可以开始使用啦

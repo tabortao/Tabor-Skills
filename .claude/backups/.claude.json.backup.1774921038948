@@ -1,0 +1,32 @@
+{
+  "numStartups": 1,
+  "hasCompletedOnboarding": true,
+  "firstStartTime": "2026-03-24T08:22:48.215Z",
+  "opusProMigrationComplete": true,
+  "sonnet1m45MigrationComplete": true,
+  "userID": "b3d44ec9635eef6ffa9b7269c141e29ebeadb9b3ae0bbd3bb30f0bb521b69176",
+  "clientDataCache": {
+    "data": null,
+    "timestamp": 1774340570012
+  },
+  "opus1mMergeNoticeSeenCount": 1,
+  "lastReleaseNotesSeen": "2.1.81",
+  "projects": {
+    "C:/Users/Tao": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": []
+    }
+  },
+  "metricsStatusCache": {
+    "enabled": false,
+    "timestamp": 1774487214776
+  }
+}
