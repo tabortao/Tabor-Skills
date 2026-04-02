@@ -1,167 +1,192 @@
-# Tabor-Skills
+# Claude Code 个人技能集合
 
-专为提升工作效率而设计的一系列强大AI技能和工具集合。本仓库包含专为笔记管理和媒体下载而设计的专业工具，可与Claude等AI助手无缝集成。
+一个精心策划的 Claude Code 技能库，包含 20+ 个提升工作效率的实用技能。本集合专注于内容创作、开发自动化、知识管理和媒体处理等实际应用场景。
 
-## 🚀 可用技能
+## 🎯 项目目的
 
-### 📚 思源笔记查询技能
-一个功能强大的Node.js工具，使用先进的SQL功能进行思源笔记的智能查询和管理。
+这是一个为 **Claude Code 打造的个人效率工具包**，包含精心挑选的技能，旨在增强日常工作流程。每个技能都经过精心选择，具有实际效用并针对以下场景进行了优化：
 
-**核心特性：**
-- 🔍 **高级内容搜索** - 使用自然语言查询笔记中的任何内容
-- 🔗 **智能关系发现** - 自动发现笔记间的连接和引用关系
-- 📋 **任务管理集成** - 直接查询和管理基于笔记的待办事项
-- 🏷️ **标签和属性查询** - 基于标签和自定义属性的精确筛选
-- 📊 **时间维度分析** - 按时间范围查询日记、任务和文档
-- 🎯 **零学习成本** - 无需学习SQL，使用自然语言即可查询
+- **内容创作与发布**: 微信公众号文章、社交媒体优化
+- **开发与自动化**: 浏览器自动化、Web 开发工具
+- **知识管理**: 笔记记录、研究、信息组织
+- **媒体处理**: 视频下载、内容提取、文件处理
 
-**使用场景：**
-- "查找所有关于人工智能的笔记"
-- "显示本周未完成的任务"
-- "哪些笔记引用了这篇文档？"
-- "列出所有带有高优先级标签的文档"
+## 📊 技能集合概览
 
-**技术栈：** Node.js, SQL查询, RESTful API集成
+### 📝 内容创作与发布 (6 个技能)
 
-**文档：** [siyuan-notes-skill/README.md](siyuan-notes-skill/README.md)
+| 技能 | 用途 | 主要特性 |
+|------|------|----------|
+| **wechat-article-writer** | 全流程文章创作 | 研究 → 写作 → 标题 → 优化 |
+| **wechat-title-optimizer** | 爆款标题生成 | 技术内容优化 |
+| **wechat-content-optimizer** | 内容增强 | 中文社交媒体格式 |
+| **wechat-converter** | 格式转换 | 通用 → 微信优化 |
+| **wechat-publisher-yashu** | 发布自动化 | 直接微信平台集成 |
+| **generate-cover-prompt** | 视觉内容创作 | AI 图像提示词生成 |
 
-### 🎬 视频下载器技能
-一个功能强大的基于Python的工具，用于从YouTube、Bilibili、Twitter等多个平台下载视频和音频。
+### 🔧 开发与自动化 (4 个技能)
 
-**核心特性：**
-- **🌐 广泛平台支持** - 支持从YouTube、Bilibili、Twitter及100+其他网站下载
-- **📊 实时进度显示** - 实时下载进度，详细信息展示
-- **🪟 Windows优化** - 增强的UTF-8支持，适用于中文路径，强大的Windows兼容性
-- **🎚️ 质量选择** - 从最佳到最差质量选择，包括特定分辨率（1080p、720p等）
-- **🔄 格式转换** - 保存为MP4、WebM、MKV，或提取音频为MP3
-- **🛡️ 增强的B站支持** - 特殊的防封禁保护和优化的下载策略
-- **🍪 Cookie支持** - 下载需要登录验证的内容
-- **🔧 自动依赖管理** - 自动安装所需工具
+| 技能 | 用途 | 主要特性 |
+|------|------|----------|
+| **agent-browser** | 浏览器自动化 | 基于 CDP，表单填写，数据抓取 |
+| **chrome-devtools-skill** | Web 开发 | Chrome DevTools 集成 |
+| **skill-creator-yashu** | 技能开发 | 增强的创建工作流程 |
+| **skill-optimizer-yashu** | 质量保证 | 性能分析与优化 |
 
-**使用场景：**
-- 下载教育视频供离线观看
-- 从音乐视频中提取音频
-- 归档社交媒体上的重要内容
-- 创建在线媒体的本地备份
+### 📚 知识管理 (4 个技能)
 
-**技术栈：** Python, yt-dlp集成, 跨平台兼容
+| 技能 | 用途 | 主要特性 |
+|------|------|----------|
+| **obsidian-cli** | 笔记管理 | 完整的 Obsidian 仓库控制 |
+| **obsidian-bases** | 数据组织 | 类数据库笔记视图 |
+| **obsidian-markdown** | 内容处理 | Obsidian 风格 Markdown |
+| **siyuan-notes-skill** | 平台集成 | 思源笔记支持 |
 
-**文档：** [video-downloader-skill/README.md](video-downloader-skill/README.md)
+### 🎥 媒体与文件处理 (3 个技能)
 
-## 🛠️ 开发环境搭建
+| 技能 | 用途 | 主要特性 |
+|------|------|----------|
+| **video-downloader-skill** | 媒体下载 | YouTube、Bilibili、Twitter 支持 |
+| **defuddle** | 内容提取 | 干净的网页内容解析 |
+| **json-canvas** | 视觉组织 | JSON Canvas 文件处理 |
 
-### 前置要求
+### ⚡ 效率工具与实用程序 (3 个技能)
 
-**思源笔记技能：**
-- Node.js 14.0.0或更高版本
-- npm包管理器
-- 支持API访问的思源笔记实例
+| 技能 | 用途 | 主要特性 |
+|------|------|----------|
+| **find-skills** | 技能发现 | 查找和安装新技能 |
+| **skill-laws** | 设计原则 | 技能创建指南 |
+| **save_to_dinox** | 笔记集成 | Dinox 平台保存 |
 
-**视频下载器技能：**
-- Python 3.x
-- pip包管理器
+## 🚀 快速开始
 
-### 快速开始
+### 安装步骤
 
-1. **克隆仓库：**
-```bash
-git clone https://github.com/your-org/Tabor-Skills.git
-cd Tabor-Skills
+1. **克隆仓库**:
+   ```bash
+   git clone https://github.com/your-org/personal-skills.git
+   cd personal-skills/skills
+   ```
+
+2. **初始化子模块**:
+   ```bash
+   git submodule update --init --recursive
+   ```
+
+3. **配置环境**:
+   - 使用您的 API 凭据更新 `.claude/settings.json`
+   - 验证模型配置（推荐使用 LongCat-Flash-Chat）
+
+### 使用示例
+
+#### 内容创作工作流程
+```
+1. 研究主题 → wechat-article-writer
+2. 生成爆款标题 → wechat-title-optimizer
+3. 优化内容 → wechat-content-optimizer
+4. 创建封面图 → generate-cover-prompt
+5. 发布文章 → wechat-publisher-yashu
 ```
 
-2. **设置思源笔记技能：**
-```bash
-cd siyuan-notes-skill
-npm install
-# 配置.env文件，填入思源API凭证
+#### 研究与笔记工作流程
+```
+1. 提取网页内容 → defuddle
+2. 下载媒体 → video-downloader-skill
+3. 保存到笔记 → obsidian-cli
+4. 组织数据 → obsidian-bases
+5. 转换格式 → obsidian-markdown
 ```
 
-3. **设置视频下载器技能：**
-```bash
-cd video-downloader-skill
-# 依赖项自动管理
+#### 开发与自动化工作流程
 ```
-
-## 📖 使用示例
-
-### 思源笔记技能
-```bash
-cd siyuan-notes-skill
-
-# 测试连接
-npm test
-
-# 搜索包含特定关键词的笔记
-node index.js search "机器学习"
-
-# 列出所有文档
-node index.js docs
-
-# 查找最近7天的任务
-node index.js tasks "[ ]" 7
-```
-
-### 视频下载器技能
-```bash
-cd video-downloader-skill
-
-# 以最佳质量下载视频
-python scripts/video_download.py "https://youtube.com/watch?v=..."
-
-# 以1080p下载B站视频
-python scripts/video_download.py "https://bilibili.com/video/..." -q 1080p
-
-# 仅提取音频
-python scripts/video_download.py "https://youtube.com/watch?v=..." -a
-
-# 下载到指定目录
-python scripts/video_download.py "https://youtube.com/watch?v=..." -o "/path/to/downloads"
+1. 自动化浏览器任务 → agent-browser
+2. 调试 Web 应用 → chrome-devtools-skill
+3. 创建新技能 → skill-creator-yashu
+4. 优化性能 → skill-optimizer-yashu
 ```
 
 ## 🏗️ 架构设计
 
-本仓库采用模块化架构，每个技能都是独立的：
+### 核心基础设施
+
+- **`.claude/`**: 配置和技能管理框架
+- **技能开发工具**: 创建、测试和优化工具
+- **Git 子模块**: 版本控制的技能依赖
+
+### 技能结构
+
+每个技能遵循标准化模式：
 
 ```
-Tabor-Skills/
-├── siyuan-notes-skill/      # 笔记管理Node.js技能
-│   ├── index.js             # 主入口点
-│   ├── package.json         # 依赖和脚本
-│   └── README.md           # 技能特定文档
-├── video-downloader-skill/   # 媒体下载Python技能
-│   ├── scripts/
-│   │   └── video_download.py  # 主下载脚本
-│   └── README.md           # 技能特定文档
-├── CLAUDE.md               # Claude Code集成指南
-└── README.md              # 本文件
+skill-name/
+├── SKILL.md                 # 带有元数据的核心文档
+├── scripts/                 # 可执行自动化脚本
+├── references/              # 详细指南和文档
+├── assets/                  # 模板、图片、静态文件
+└── evals/                   # 测试和评估数据
 ```
+
+## 🔧 开发与定制
+
+### 添加新技能
+
+1. **使用内置技能创建器**:
+   ```bash
+   cd .claude/skills/skill-creator
+   python -m scripts.create_skill "my-new-skill"
+   ```
+
+2. **遵循引导工作流程**进行文档编写和测试
+3. **添加综合测试用例**确保可靠性
+4. **优化描述**以提高触发准确性
+
+### 技能质量标准
+
+- **渐进式披露**: 有组织的加载（元数据 → 文档 → 资源）
+- **客观测试**: 可量化的断言和基准
+- **性能监控**: 令牌使用和执行时间跟踪
+- **用户体验**: 清晰的文档和示例
+
+## 📈 性能与优化
+
+### 内置评估系统
+
+- **并行测试**: 与基准比较技能
+- **量化指标**: 通过率、性能基准
+- **可视化分析**: 交互式比较工具
+- **描述优化**: AI 驱动的触发改进
+
+### 关键性能指标
+
+- **触发准确性**: 技能调用精度
+- **执行速度**: 响应时间优化
+- **令牌效率**: 资源使用最小化
+- **成功率**: 任务完成可靠性
 
 ## 🤝 贡献指南
 
-每个技能独立开发，具有自己的：
-- 文档
-- 配置
-- 依赖项
-- 测试流程
+### 向集合添加技能
 
-贡献时请注意：
-1. 在特定技能目录内工作
-2. 遵循现有的代码风格和模式
-3. 使用新功能更新技能特定的README.md
-4. 确保跨平台兼容性（如适用）
+1. Fork 仓库
+2. 使用技能创建器工作流程创建您的技能
+3. 包含综合测试用例和文档
+4. 针对性能和用户体验进行优化
+5. 提交包含详细描述的拉取请求
+
+### 质量指南
+
+- 遵循渐进式披露原则
+- 包含客观评估标准
+- 维护清晰简洁的文档
+- 确保跨平台兼容性
+- 提供实用使用示例
 
 ## 📄 许可证
 
-本项目采用MIT许可证。请查看各个技能目录了解具体的许可信息。
-
-## 🔗 相关链接
-
-- [CLAUDE.md](CLAUDE.md) - Claude Code集成指南
-- [思源笔记官方](https://github.com/siyuan-note/siyuan) - 笔记应用
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - 视频下载引擎
+此个人技能集合采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件。
 
 ---
 
-**开始使用AI驱动的技能提升您的工作效率！** 🚀
+**为效率而生，为生产力而优化** 🚀
 
-从上面的列表中选择一个技能，开始探索其功能。
+有关详细的开发指导和操作说明，请参阅 [CLAUDE.md](CLAUDE.md)。

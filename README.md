@@ -1,167 +1,192 @@
-# Tabor-Skills
+# Personal Skills Collection for Claude Code
 
-A collection of powerful AI skills and tools designed to enhance productivity and streamline workflows. This repository contains specialized skills for note management and media downloading, built to integrate seamlessly with AI assistants like Claude.
+A curated library of 20+ productivity-enhancing skills designed to streamline your work and learning efficiency. This collection focuses on practical, immediately useful tools across content creation, development automation, knowledge management, and media processing.
 
-## 🚀 Available Skills
+## 🎯 Purpose
 
-### 📚 Siyuan Notes Query Skill
-A sophisticated Node.js tool for intelligent querying and management of 思源笔记 (Siyuan Notes) using advanced SQL capabilities.
+This is a **personal productivity toolkit** built for Claude Code, containing hand-picked skills that enhance daily workflows. Each skill is carefully selected for real-world utility and optimized for immediate use in:
 
-**Key Features:**
-- 🔍 **Advanced Content Search** - Query any content within your notes using natural language
-- 🔗 **Smart Relationship Discovery** - Automatically discover connections and references between notes
-- 📋 **Task Management Integration** - Direct querying and management of note-based to-do items
-- 🏷️ **Tag & Attribute Queries** - Precise filtering based on tags and custom attributes
-- 📊 **Time-based Analysis** - Query daily notes, tasks, and documents by time ranges
-- 🎯 **Zero Learning Curve** - Natural language queries without needing to learn SQL
+- **Content Creation & Publishing**: WeChat articles, social media optimization
+- **Development & Automation**: Browser automation, web development tools
+- **Knowledge Management**: Note-taking, research, information organization
+- **Media Processing**: Video downloading, content extraction, file handling
 
-**Use Cases:**
-- "Find all notes about artificial intelligence"
-- "Show me my unfinished tasks from this week"
-- "What notes reference this document?"
-- "List all documents with high priority tags"
+## 📊 Collection Overview
 
-**Tech Stack:** Node.js, SQL querying, RESTful API integration
+### 📝 Content & Publishing (6 Skills)
 
-**Documentation:** [siyuan-notes-skill/README.md](siyuan-notes-skill/README.md)
+| Skill | Purpose | Key Features |
+|-------|---------|-------------|
+| **wechat-article-writer** | End-to-end article creation | Research → Write → Title → Optimize |
+| **wechat-title-optimizer** | Viral title generation | Technical content optimization |
+| **wechat-content-optimizer** | Content enhancement | Chinese social media format |
+| **wechat-converter** | Format conversion | General → WeChat optimized |
+| **wechat-publisher-yashu** | Publishing automation | Direct WeChat platform integration |
+| **generate-cover-prompt** | Visual content creation | AI image prompt generation |
 
-### 🎬 Video Downloader Skill
-A powerful Python-based tool for downloading videos and audio from multiple platforms including YouTube, Bilibili, and Twitter.
+### 🔧 Development & Automation (4 Skills)
 
-**Key Features:**
-- **🌐 Wide Platform Support** - Download from YouTube, Bilibili, Twitter, and 100+ other sites
-- **📊 Real-time Progress** - Live download progress with detailed information display
-- **🪟 Windows Optimized** - Enhanced UTF-8 support for Chinese paths and robust Windows compatibility
-- **🎚️ Quality Selection** - Choose from best to worst quality, including specific resolutions (1080p, 720p, etc.)
-- **🔄 Format Conversion** - Save in MP4, WebM, MKV, or extract audio as MP3
-- **🛡️ Enhanced Bilibili Support** - Special anti-blocking protection and optimized download strategies
-- **🍪 Cookie Support** - Download content that requires authentication
-- **🔧 Auto Dependency Management** - Automatically installs required tools
+| Skill | Purpose | Key Features |
+|-------|---------|-------------|
+| **agent-browser** | Browser automation | CDP-based, form filling, scraping |
+| **chrome-devtools-skill** | Web development | Chrome DevTools integration |
+| **skill-creator-yashu** | Skill development | Enhanced creation workflow |
+| **skill-optimizer-yashu** | Quality assurance | Performance analysis & optimization |
 
-**Use Cases:**
-- Download educational videos for offline viewing
-- Extract audio from music videos
-- Archive important content from social media
-- Create local backups of online media
+### 📚 Knowledge Management (4 Skills)
 
-**Tech Stack:** Python, yt-dlp integration, cross-platform compatibility
+| Skill | Purpose | Key Features |
+|-------|---------|-------------|
+| **obsidian-cli** | Note management | Complete Obsidian vault control |
+| **obsidian-bases** | Data organization | Database-like note views |
+| **obsidian-markdown** | Content processing | Obsidian-flavored markdown |
+| **siyuan-notes-skill** | Platform integration | 思源笔记 (SiYuan) support |
 
-**Documentation:** [video-downloader-skill/README.md](video-downloader-skill/README.md)
+### 🎥 Media & File Processing (3 Skills)
 
-## 🛠️ Development Setup
+| Skill | Purpose | Key Features |
+|-------|---------|-------------|
+| **video-downloader-skill** | Media download | YouTube, Bilibili, Twitter support |
+| **defuddle** | Content extraction | Clean web content parsing |
+| **json-canvas** | Visual organization | JSON Canvas file handling |
 
-### Prerequisites
+### ⚡ Productivity & Utilities (3 Skills)
 
-**For Siyuan Notes Skill:**
-- Node.js 14.0.0 or higher
-- npm package manager
-- Siyuan Notes instance with API access
+| Skill | Purpose | Key Features |
+|-------|---------|-------------|
+| **find-skills** | Skill discovery | Find and install new skills |
+| **skill-laws** | Design principles | Skill creation guidelines |
+| **save_to_dinox** | Note integration | Dinox platform saving |
 
-**For Video Downloader Skill:**
-- Python 3.x
-- pip package manager
+## 🚀 Quick Start
 
-### Quick Start
+### Installation
 
-1. **Clone the repository:**
-```bash
-git clone https://github.com/your-org/Tabor-Skills.git
-cd Tabor-Skills
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-org/personal-skills.git
+   cd personal-skills/skills
+   ```
+
+2. **Initialize submodules**:
+   ```bash
+   git submodule update --init --recursive
+   ```
+
+3. **Configure environment**:
+   - Update `.claude/settings.json` with your API credentials
+   - Verify model configuration (LongCat-Flash-Chat recommended)
+
+### Usage Examples
+
+#### Content Creation Workflow
+```
+1. Research topic → wechat-article-writer
+2. Generate viral title → wechat-title-optimizer
+3. Optimize content → wechat-content-optimizer
+4. Create cover image → generate-cover-prompt
+5. Publish article → wechat-publisher-yashu
 ```
 
-2. **Set up Siyuan Notes Skill:**
-```bash
-cd siyuan-notes-skill
-npm install
-# Configure your .env file with Siyuan API credentials
+#### Research & Note-Taking Workflow
+```
+1. Extract web content → defuddle
+2. Download media → video-downloader-skill
+3. Save to notes → obsidian-cli
+4. Organize data → obsidian-bases
+5. Convert formats → obsidian-markdown
 ```
 
-3. **Set up Video Downloader Skill:**
-```bash
-cd video-downloader-skill
-# Dependencies are automatically managed
+#### Development & Automation Workflow
 ```
-
-## 📖 Usage Examples
-
-### Siyuan Notes Skill
-```bash
-cd siyuan-notes-skill
-
-# Test connection
-npm test
-
-# Search for notes containing specific keywords
-node index.js search "machine learning"
-
-# List all documents
-node index.js docs
-
-# Find tasks from the last 7 days
-node index.js tasks "[ ]" 7
-```
-
-### Video Downloader Skill
-```bash
-cd video-downloader-skill
-
-# Download video in best quality
-python scripts/video_download.py "https://youtube.com/watch?v=..."
-
-# Download Bilibili video in 1080p
-python scripts/video_download.py "https://bilibili.com/video/..." -q 1080p
-
-# Extract audio only
-python scripts/video_download.py "https://youtube.com/watch?v=..." -a
-
-# Download to specific directory
-python scripts/video_download.py "https://youtube.com/watch?v=..." -o "/path/to/downloads"
+1. Automate browser tasks → agent-browser
+2. Debug web apps → chrome-devtools-skill
+3. Create new skills → skill-creator-yashu
+4. Optimize performance → skill-optimizer-yashu
 ```
 
 ## 🏗️ Architecture
 
-This repository follows a modular architecture where each skill is self-contained:
+### Core Infrastructure
+
+- **`.claude/`**: Configuration and skill management framework
+- **Skill Development Tools**: Creation, testing, and optimization utilities
+- **Git Submodules**: Version-controlled skill dependencies
+
+### Skill Structure
+
+Each skill follows a standardized pattern:
 
 ```
-Tabor-Skills/
-├── siyuan-notes-skill/      # Node.js skill for note management
-│   ├── index.js             # Main entry point
-│   ├── package.json         # Dependencies and scripts
-│   └── README.md           # Skill-specific documentation
-├── video-downloader-skill/   # Python skill for media downloading
-│   ├── scripts/
-│   │   └── video_download.py  # Main downloader script
-│   └── README.md           # Skill-specific documentation
-├── CLAUDE.md               # Claude Code integration guide
-└── README.md              # This file
+skill-name/
+├── SKILL.md                 # Core documentation with metadata
+├── scripts/                 # Executable automation scripts
+├── references/              # Detailed guides and documentation
+├── assets/                  # Templates, images, static files
+└── evals/                   # Testing and evaluation data
 ```
+
+## 🔧 Development & Customization
+
+### Adding New Skills
+
+1. **Use the built-in skill creator**:
+   ```bash
+   cd .claude/skills/skill-creator
+   python -m scripts.create_skill "my-new-skill"
+   ```
+
+2. **Follow the guided workflow** for documentation and testing
+3. **Add comprehensive test cases** for reliability
+4. **Optimize descriptions** for better triggering accuracy
+
+### Skill Quality Standards
+
+- **Progressive Disclosure**: Organized loading (metadata → docs → resources)
+- **Objective Testing**: Quantifiable assertions and benchmarks
+- **Performance Monitoring**: Token usage and execution time tracking
+- **User Experience**: Clear documentation and examples
+
+## 📈 Performance & Optimization
+
+### Built-in Evaluation System
+
+- **Parallel Testing**: Compare skills against baselines
+- **Quantitative Metrics**: Pass rates, performance benchmarks
+- **Visual Analysis**: Interactive comparison tools
+- **Description Optimization**: AI-powered triggering improvements
+
+### Key Performance Indicators
+
+- **Trigger Accuracy**: Skill invocation precision
+- **Execution Speed**: Response time optimization
+- **Token Efficiency**: Resource usage minimization
+- **Success Rate**: Task completion reliability
 
 ## 🤝 Contributing
 
-Each skill is developed independently with its own:
-- Documentation
-- Configuration
-- Dependencies
-- Testing procedures
+### Adding Skills to Collection
 
-When contributing:
-1. Work within the specific skill directory
-2. Follow the existing code style and patterns
-3. Update the skill-specific README.md with new features
-4. Ensure cross-platform compatibility where applicable
+1. Fork the repository
+2. Create your skill using the skill-creator workflow
+3. Include comprehensive test cases and documentation
+4. Optimize for performance and user experience
+5. Submit a pull request with detailed description
+
+### Quality Guidelines
+
+- Follow progressive disclosure principles
+- Include objective evaluation criteria
+- Maintain clear, concise documentation
+- Ensure cross-platform compatibility
+- Provide practical usage examples
 
 ## 📄 License
 
-This project is licensed under the MIT License. See individual skill directories for specific licensing information.
-
-## 🔗 Related Links
-
-- [CLAUDE.md](CLAUDE.md) - Integration guide for Claude Code
-- [Siyuan Notes Official](https://github.com/siyuan-note/siyuan) - The note-taking application
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Video download engine
+This personal skills collection is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-**Start enhancing your productivity with AI-powered skills!** 🚀
+**Built for productivity, optimized for efficiency** 🚀
 
-Choose a skill from the list above and begin exploring its capabilities.
+For detailed development guidance and operational instructions, see [CLAUDE.md](CLAUDE.md).
